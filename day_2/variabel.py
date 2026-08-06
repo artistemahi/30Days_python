@@ -47,7 +47,7 @@ circum_of_circle = 2*3.14*radius
 
 # take radius from user and calculate the area 
 radius = input("enter the radius of the circle: ")
-area_of_circle = 3.14 * (int(radius) ** 2)
+area_of_circle = 3.14 * (int(radius) ** 2)  # input function returns a string, so we need to convert it to float or int before calculation
 
 # Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
 first_name = input("enter your first name: ")
