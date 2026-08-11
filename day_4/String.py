@@ -27,3 +27,8 @@ print(company.upper())
 
 #Change all the characters to lowercase letters using lower() method.
 print(company.lower())
+
+#Use capitalize(), title(), swapcase() methods to format the value of the string Coding For All.
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
