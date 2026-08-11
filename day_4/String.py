@@ -11,7 +11,13 @@ s1 = "Coding"
 s2 = "For"
 s3 = "All"
 sentence = f"{s1} {s2} {s3}"
-print(sentence)
+# print(sentence)
+
 #Declare a variable named company and assign it to an initial value "Coding For All".
+company = sentence
 
 #Print the variable company using print().
+print(company)
+
+#Print the length of the company string using len() method and print().
+print(len(company))
